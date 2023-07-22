@@ -23,11 +23,11 @@ Note: Please use <https://jsonlint.com/> to check that your JSON file is correct
 {
     // The URLs to the template overlays
     "template_urls": [
-        "https://url.to.the.template1.png",
-        "https://url.to.the.template2.png"
+        "https://url.to.the.template1.json",
+        "https://url.to.the.template2.json"
     ],
     // The URL to a priority template with a filtered list of sources from a template overlay from "template_urls"
-    "priority_url": "https://url.to.the.template3.png",
+    "priority_url": "https://url.to.the.template3.json",
     // Filter only templates with names in this list, if empty take all
     "names": ["dont-panic", "whale", "marvin head", "norminet"],
     //Where the template image will be saved or loaded from
