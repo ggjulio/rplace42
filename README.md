@@ -47,3 +47,18 @@ Note: Please use <https://jsonlint.com/> to check that your JSON file is correct
 }
 ```
 
+## Run the Script
+
+### Windows
+
+```shell
+start.bat or startverbose.bat
+```
+
+### Unix-like (Linux, macOS etc.)
+
+```shell
+chmod +x start.sh startverbose.sh
+./start.sh or ./startverbose.sh
+```
+
