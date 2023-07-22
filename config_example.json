@@ -4,7 +4,7 @@
     ],
     "priority_url": "https://raw.githubusercontent.com/ggjulio/rplace42/main/templates/priority.json",
     "names": [],
-    "image_path": "image.png",
+    "image_path": "template.png",
     "thread_delay": 2,
     "unverified_rate_limit": false,
     "compact_logging": true,
