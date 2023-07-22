@@ -2,9 +2,9 @@
 	"contact": "https://discord.gg/? || 42",
 	"templates": [
 		{
-			"name": "dontpanic",
+			"name": "dont_panic",
 			"sources": [
-				"https://raw.githubusercontent.com/ggjulio/rplace42/main/dontpanic.png"
+				"https://raw.githubusercontent.com/ggjulio/rplace42/main/images/2023/dont-panic.png"
 			],
 			"x": 84,
 			"y": 40
