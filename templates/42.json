@@ -1,0 +1,15 @@
+{
+	"contact": "https://discord.gg/? || 42",
+	"templates": [
+		{
+			"name": "dontpanic",
+			"sources": [
+				"https://raw.githubusercontent.com/ggjulio/rplace42/main/dontpanic.png"
+			],
+			"x": 84,
+			"y": 40
+		}
+	],
+	"whitelist": [],
+	"blacklist": []
+}
