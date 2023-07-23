@@ -43,20 +43,6 @@
 			"frameCount": null,
 			"startTime": null,
 			"looping": null
-		},
-		{
-			"name": "whale",
-			"sources": [
-				"https://raw.githubusercontent.com/ggjulio/rplace42/main/images/2023/whale.png"
-			],
-			"x": 108,
-			"y": 517,
-			"frameWidth": null,
-			"frameHeight": null,
-			"frameRate": null,
-			"frameCount": null,
-			"startTime": null,
-			"looping": null
 		}
 	],
 	"whitelist": [],
