@@ -7,8 +7,8 @@
 			"sources": [
 				"https://raw.githubusercontent.com/ggjulio/rplace42/main/images/2023/dont-panic-exclamation-mark.png"
 			],
-			"x": 84,
-			"y": 540,
+			"x": 125,
+			"y": 490,
 			"frameWidth": null,
 			"frameHeight": null,
 			"frameRate": null,
@@ -16,6 +16,7 @@
 			"startTime": null,
 			"looping": null
 		},
+		800
 		{
 			"name": "norminet",
 			"sources": [
