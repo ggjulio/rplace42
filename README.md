@@ -167,7 +167,7 @@ The config values are as follows:
 
 Note that when using the included binaries, only the tunnel port is explicitly set while starting tor.
 
-<h3>If you want to use your own binaries, follow these steps:</h3>
+<h5>If you want to use your own binaries, follow these steps:</h5>
 
 - Get tor standalone for your platform [here](https://www.torproject.org/download/tor/). For Windows just use the expert bundle. For macOS, you can use [Homebrew](https://brew.sh) to install tor: ``brew install tor``.
 - In your tor folder, create a file named ``torrc``. Copy [this](https://github.com/torproject/tor/blob/main/src/config/torrc.sample.in) into it.
