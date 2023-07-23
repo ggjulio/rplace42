@@ -1,3 +1,22 @@
+Rplace 42
+---
+
+
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=5 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [Overlay instruction](#overlay-instruction)
+- [Installation Instructions](#installation-instructions)
+      - [Requirements](#requirements)
+      - [Steps](#steps)
+      - [Run the Application](#run-the-application)
+      - [Multiple Workers](#multiple-workers)
+      - [Other Settings](#other-settings)
+- [Creating images](#creating-images)
+
+<!-- /code_chunk_output -->
 
 ## Overlay instruction
 See [OVERLAY_INSTRUCTION.md](documentation/OVERLAY_INSTRUCTION.md) to intall an overlay
@@ -7,7 +26,8 @@ See [OVERLAY_INSTRUCTION.md](documentation/OVERLAY_INSTRUCTION.md) to intall an 
 ##### Requirements
 
 - [Python 3.10](https://www.python.org/downloads/) **or** docker (see instructions below)
-##### Steps 
+##### Steps
+###### Installation & Configuration
 
 Clone the repo [reddit-place-script-2023](https://github.com/tryptech/reddit-place-script-2023):
 ```sh
@@ -53,7 +73,7 @@ Edit the values to replace with actual credentials and values in the property `w
     }
 }
 ```
-Run the Application
+##### Run the Application
 
 - Windows
 	```shell
@@ -75,7 +95,7 @@ Run the Application
 	docker run place-bot
 	```
 
-## Multiple Workers
+##### Multiple Workers
 
 Just create multiple child arrays to "workers" in the .json file:
 
@@ -100,7 +120,7 @@ In this case, both workers will draw random pixels from the input image file.
 This is useful if you want different threads drawing different parts of the image with different accounts.
 
 
-## Other Settings
+##### Other Settings
 
 If any JSON decoders errors are found, the `config.json` needs to be fixed. Make sure to add the below 2 lines in the file.
 
@@ -121,7 +141,7 @@ If any JSON decoders errors are found, the `config.json` needs to be fixed. Make
 - If you'd like, you can enable Verbose Mode by adding `--verbose` to "python main.py". This will output a lot more information, and not necessarily in the right order, but it is useful for development and debugging.
 - You can also setup proxies by creating a "proxies" and have a new line for each proxies.
 
-# Tor
+###### Tor
 
 Tor can be used as an alternative to normal proxies. Note that currently, you cannot use normal proxies and tor at the same time.
 
@@ -158,3 +178,11 @@ Note that when using the included binaries, only the tunnel port is explicitly s
 - Fill in your password, your httptunnel port and your control port in this script's ``config.json`` and enable tor with ``using_tor = true``.
 - To start tor, run ``tor --defaults-torrc PATHTOTORRC --HttpTunnelPort TUNNELPORT``, with PATHTOTORRC being your path to the torrc file you created and TUNNELPORT being your httptunnel port.
 - Now run the script and (hopefully) everything should work.
+
+## Creating images
+
+[Pixelorama](https://github.com/Orama-Interactive/Pixelorama) is free, open source and easy to use.
+See the [official documentation](https://github.com/Orama-Interactive/Pixelorama#download) to download pixelorama.
+
+The color palette of rplace 2023 can be [downloaded here](https://raw.githubusercontent.com/ggjulio/rplace42/main/documentations/pixelorama/palettes/reddit_rplace_2023.tres)
+
