@@ -29,6 +29,20 @@
 			"frameCount": null,
 			"startTime": null,
 			"looping": null
+		},
+		{
+			"name": "petunia",
+			"sources": [
+				"https://raw.githubusercontent.com/ggjulio/rplace42/main/images/2023/petunia.png"
+			],
+			"x": 117,
+			"y": 527,
+			"frameWidth": null,
+			"frameHeight": null,
+			"frameRate": null,
+			"frameCount": null,
+			"startTime": null,
+			"looping": null
 		}
 	],
 	"whitelist": [],
