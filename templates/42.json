@@ -8,7 +8,7 @@
 				"https://raw.githubusercontent.com/ggjulio/rplace42/main/images/2023/dont-panic.png"
 			],
 			"x": 84,
-			"y": 40,
+			"y": 540,
 			"frameWidth": null,
 			"frameHeight": null,
 			"frameRate": null,
@@ -20,3 +20,5 @@
 	"whitelist": [],
 	"blacklist": []
 }
+
+
