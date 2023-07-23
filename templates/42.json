@@ -29,6 +29,20 @@
 			"frameCount": null,
 			"startTime": null,
 			"looping": null
+		},
+		{
+			"name": "petunia",
+			"sources": [
+				"https://raw.githubusercontent.com/ggjulio/rplace42/main/images/2023/petunia-falling.png"
+			],
+			"x": 1428,
+			"y": 455,
+			"frameWidth": null,
+			"frameHeight": null,
+			"frameRate": null,
+			"frameCount": null,
+			"startTime": null,
+			"looping": null
 		}
 	],
 	"whitelist": [],
