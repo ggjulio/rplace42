@@ -1,12 +1,15 @@
 
-## Requirements
+## Overlay instruction
+See [OVERLAY_INSTRUCTION.md](documentation/OVERLAY_INSTRUCTION.md) to intall an overlay
 
-- [Python 3.10](https://www.python.org/downloads/)
-- [fork reddit-place-script-2023](https://github.com/tryptech/reddit-place-script-2023) (see instructions for installation bellow)
-## Get Started
+## Installation Instructions
 
+##### Requirements
 
-Clone this repo:
+- [Python 3.10](https://www.python.org/downloads/) **or** docker (see instructions below)
+##### Steps 
+
+Clone the repo [reddit-place-script-2023](https://github.com/tryptech/reddit-place-script-2023):
 ```sh
 git clone https://github.com/tryptech/reddit-place-script-2023 && cd reddit-place-script-2023
 ```
@@ -16,8 +19,8 @@ Download our default config as `config.json`;
 curl https://raw.githubusercontent.com/ggjulio/rplace42/main/config_example.json > config.json
 ```
 
-Edit the values to replace with actual credentials and values
-Note: Please use <https://jsonlint.com/> to check that your JSON file is correctly formatted
+Edit the values to replace with actual credentials and values in the property `workers`.
+> Note: Please use <https://jsonlint.com/> to check that your JSON file is correctly formatted
 
 ```json
 {
