@@ -7,7 +7,7 @@
 			"sources": [
 				"https://raw.githubusercontent.com/ggjulio/rplace42/main/images/2023/dont-panic-exclamation-mark.png"
 			],
-			"x": 1433,
+			"x": 1933,
 			"y": 470,
 			"frameWidth": null,
 			"frameHeight": null,
@@ -21,7 +21,7 @@
 			"sources": [
 				"https://raw.githubusercontent.com/ggjulio/rplace42/main/images/2023/norminet.png"
 			],
-			"x": 1446,
+			"x": 1946,
 			"y": 457,
 			"frameWidth": null,
 			"frameHeight": null,
@@ -35,8 +35,22 @@
 			"sources": [
 				"https://raw.githubusercontent.com/ggjulio/rplace42/main/images/2023/petunia-falling-v2.png"
 			],
-			"x": 1428,
+			"x": 1928,
 			"y": 455,
+			"frameWidth": null,
+			"frameHeight": null,
+			"frameRate": null,
+			"frameCount": null,
+			"startTime": null,
+			"looping": null
+		},
+		{
+			"name": "whale",
+			"sources": [
+				"https://raw.githubusercontent.com/ggjulio/rplace42/main/images/2023/whale.png"
+			],
+			"x": 1931,
+			"y": 444,
 			"frameWidth": null,
 			"frameHeight": null,
 			"frameRate": null,
