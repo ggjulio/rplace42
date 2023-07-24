@@ -29,34 +29,6 @@
 			"frameCount": null,
 			"startTime": null,
 			"looping": null
-		},
-		{
-			"name": "petunia",
-			"sources": [
-				"https://raw.githubusercontent.com/ggjulio/rplace42/main/images/2023/petunia-falling-v2.png"
-			],
-			"x": 1928,
-			"y": 455,
-			"frameWidth": null,
-			"frameHeight": null,
-			"frameRate": null,
-			"frameCount": null,
-			"startTime": null,
-			"looping": null
-		},
-		{
-			"name": "whale",
-			"sources": [
-				"https://raw.githubusercontent.com/ggjulio/rplace42/main/images/2023/whale.png"
-			],
-			"x": 1963,
-			"y": 459,
-			"frameWidth": null,
-			"frameHeight": null,
-			"frameRate": null,
-			"frameCount": null,
-			"startTime": null,
-			"looping": null
 		}
 	],
 	"whitelist": [],
