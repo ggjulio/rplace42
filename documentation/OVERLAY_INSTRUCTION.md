@@ -1,5 +1,7 @@
 ### Overlay Instruction
 
+Here is a very good doc: https://docs.google.com/document/d/12WTiDcRo4P35zJvlgWX06MKVbitbDo3ehnF7mysFv4Y/edit?rm=minimal
+
 #### Steps
 * Install [tampermonkey](https://www.tampermonkey.net/) in your browser
   - Chrome: [Tampermonkey - Chrome Web Store](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
